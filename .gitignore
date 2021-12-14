@@ -1,2 +1,2 @@
-*_test.go
-cmd/gentests/_companies/*.txt
+/*_test.go
+/cmd/gentests/_companies/*.txt
