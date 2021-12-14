@@ -18,6 +18,6 @@ $ go1.17.5 generate
 ### Run lottery
 
 ```sh
-$ go1.17.4 test -v -shuffle on -run "TestPlatinumGold*"
-$ go1.17.4 test -v -shuffle on -run "TestGold*"
+$ go1.17.5 test -v -shuffle on -run "TestPlatinumGold*"
+$ go1.17.5 test -v -shuffle on -run "TestGold*"
 ```
