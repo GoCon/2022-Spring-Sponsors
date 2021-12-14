@@ -9,6 +9,7 @@ var numPlatinumGold int64
 
 @@range $i, $company := .PlatinumGolds -@@
 func TestPlatinumGold@@$i@@(t *testing.T) {
+	t.Parallel()
 	if atomic.LoadInt64(&numPlatinumGold) >= 2 {
 		t.SkipNow()
 	}
