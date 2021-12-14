@@ -1,0 +1,2 @@
+*_test.go
+cmd/gentests/_companies/*.txt
