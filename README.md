@@ -12,7 +12,7 @@ Dump company names into below files.
 ### Generate testcodes
 
 ```sh
-$ go1.17.4 generate
+$ go1.17.5 generate
 ```
 
 ### Run lottery
